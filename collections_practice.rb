@@ -6,7 +6,7 @@ end
 def contain_a(array)
   new_array = []
   array.each {|element|
-    if element.contains?('a')
+    if element.include?('a')
       new_array << element
     end
   }

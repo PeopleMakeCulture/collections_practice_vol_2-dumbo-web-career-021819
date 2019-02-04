@@ -8,7 +8,7 @@ def contain_a(array)
   array.each {|element|
     if element.contains?('a')
       new_array << element
-    end 
+    end
   }
   new_array
 end

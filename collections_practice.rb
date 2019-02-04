@@ -4,6 +4,13 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
+  new_array = []
+  array.each {|element|
+    if element.contains?('a')
+      new_array << element
+    end 
+  }
+  new_array
 end
 
 def first_wa(array)

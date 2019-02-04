@@ -1,6 +1,9 @@
 # your code goes here
-def contain_a(array)
+def begins_with_r(array)
 end 
+
+def contain_a(array)
+end
 
 def first_wa(array)
 end

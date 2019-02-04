@@ -1,6 +1,7 @@
 # your code goes here
 def begins_with_r(array)
-end 
+  array.any? { |i| i.starts_with("r")  }
+end
 
 def contain_a(array)
 end
